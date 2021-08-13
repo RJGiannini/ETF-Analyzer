@@ -1,6 +1,6 @@
 # ETF-Analyzer
 
-Financial Database and Web Application using SQL, Python, and Voilà library to analyze the performance of a hypothetical ETF.
+Financial Database and Web Application using SQL, Python, and Voilà library to analyze the performance of a hypothetical ETF. 
 
 ---
 
@@ -112,6 +112,4 @@ LinkedIn: https://www.linkedin.com/in/robertgianninijr/
 
 ## License
 
-MIT 
- 
-
+MIT
