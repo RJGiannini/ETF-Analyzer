@@ -33,7 +33,7 @@ Before running the application first install the following dependencies.
 
 ## Examples
 
-** Writing a SQL SELECT statement that reads all the PYPL data from the database. Reads the PYPL data from the database into a Pandas DataFrame. **
+**Writing a SQL SELECT statement that reads all the PYPL data from the database. Reads the PYPL data from the database into a Pandas DataFrame.**
 ```
 # Write a SQL query to SELECT all of the data from the PYPL table
 query =  """
@@ -45,7 +45,7 @@ FROM PYPL
 pypl_dataframe = pd.read_sql_table('PYPL', con=engine)
 
 ```
-** Using hvPlot to create an interactive visualization for the PYPL daily returns. **
+**Using hvPlot to create an interactive visualization for the PYPL daily returns.**
 ```
 # Create an interactive visualization with hvplot to plot the daily returns for PYPL.
 pypl_dataframe[['time', 'daily_returns']].hvplot(
@@ -54,7 +54,7 @@ pypl_dataframe[['time', 'daily_returns']].hvplot(
 
 ```
 
-** Calculating annualized returns for the portfolio and displaying result. **
+**Calculating annualized returns for the portfolio and displaying result.**
 ```
 # Create a DataFrame that displays the mean value of the “daily_returns” columns for all four assets.
 etf_portfolio_returns = etf_portfolio['daily_returns'].mean(axis=1)
@@ -68,7 +68,7 @@ print(f"The Annualized Return of the Portfolio is {annualized_etf_portfolio_retu
 
 ```
 
-** Using hvPlot to create an interactive visualization for the cumulative return values of the ETF portfolio. **
+**Using hvPlot to create an interactive visualization for the cumulative return values of the ETF portfolio.**
 ```
 # Using hvplot, create an interactive line plot that visualizes the ETF portfolios cumulative return values.
 etf_cumulative_returns = pd.DataFrame(etf_cumulative_returns)
