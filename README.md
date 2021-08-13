@@ -1,4 +1,4 @@
-# etf-analyzer
+# ETF-Analyzer
 
 Financial Database and Web Application using SQL, Python, and Voilà library to analyze the performance of a hypothetical ETF.
 
